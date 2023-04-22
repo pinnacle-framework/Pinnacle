@@ -148,7 +148,7 @@ dmypy.json
 
 # links
 /architectures
-/pinnacledb/serving/static
+/pinnacledb/cluster/static
 /converters
 /models
 
