@@ -8,7 +8,7 @@ from pinnacledb.datalayer.base.imports import get_database_from_database_type
 
 
 @serve.deployment(
-    route_prefix=f'/predict_one/{os.environ["pinnacleDB_MODEL"]}',
+    route_prefix=f'/predict_one/{os.environ.get("pinnacleDB_MODEL", "ERROR")}',
     num_replicas=int(os.environ.get("pinnacleDB_NUM_REPLICAS", "1")),
 )
 class Server:
