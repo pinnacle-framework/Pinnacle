@@ -4,7 +4,7 @@ target-version = ['py38']
 
 [tool.poetry]
 name = "pinnacledb"
-version = "0.0.3dev1"
+version = "0.0.3dev2"
 description = "🔮 Super-power your database with AI 🔮"
 authors = ["Duncan Blythe <opensource@pinnacledb.com>"]
 license = "Apache 2.0"
