@@ -1,6 +1,6 @@
 import os
 
-from pinnacledb.db.base.downloads import Fetcher
+from pinnacledb.db.base.download import Fetcher
 
 remote = os.environ.get('pinnacleDB_REMOTE_TEST', 'local')
 
