@@ -10,7 +10,7 @@ on:
 
 jobs:
   trigger-binder-build:
-    if: github.event.pull_request.pinnacled == true
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.pinnacled == true)
     runs-on: [ubuntu-latest]
     steps:
       - uses: s-weigand/trigger-mybinder-build@v1
