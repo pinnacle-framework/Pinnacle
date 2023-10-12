@@ -119,7 +119,7 @@ dev = ["pinnacledb[apis,docs,lint,tests,typing,torch]"]
 
 [project.urls]
 homepage = "https://www.pinnacledb.com/"
-documentation = "https://pinnacledb.github.io/pinnacledb/"
+documentation = "https://docs.pinnacledb.com"
 source = "https://github.com/SuperDuperDB/pinnacledb/"
 
 [tool.setuptools.packages.find]
