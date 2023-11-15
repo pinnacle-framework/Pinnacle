@@ -8,7 +8,7 @@ ARG BUILD_ENV=pypi
 # ---------------
 FROM jupyterhub/k8s-singleuser-sample:3.1.0 as base
 
-ARG pinnacleDB_EXTRAS
+ARG pinnacleDB_EXTRAS='" "'
 
 ENV NB_USER=pinnacle \
     NB_UID=1000 \
