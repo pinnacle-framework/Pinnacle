@@ -125,6 +125,8 @@ demo = [
     "librosa",
 ]
 
+sandbox = ["pinnacledb[demo,server]"]
+
 [project.urls]
 homepage = "https://www.pinnacledb.com/"
 documentation = "https://docs.pinnacledb.com"
