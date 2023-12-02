@@ -153,6 +153,7 @@ dmypy.json
 # links
 /architectures
 /pinnacledb/server/static
+/pinnacledb/snowflake
 /converters
 /models
 
