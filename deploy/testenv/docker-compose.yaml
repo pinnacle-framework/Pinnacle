@@ -8,7 +8,7 @@ services:
     image: mongo:6
     hostname: mongodb
     volumes:
-      - ./.${pinnacleDB_DATA:-test}_data:/data/db
+      - ${pinnacleDB_DATA_DIR:-.test_data}:/data/db
     ports:
       - "27017:27017"
     command : ["/bin/sh", "-c", "mongod --replSet rs0 --port 27017 --bind_ip 0.0.0.0 --dbpath /data/db/"]

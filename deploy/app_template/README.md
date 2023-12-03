@@ -5,7 +5,7 @@
 To run this sample app, build the image with:
 
 ```bash
-make testenv_image pinnacleDB_EXTRAS=sandbox
+make testenv_image
 ```
 
 And run the app with:
