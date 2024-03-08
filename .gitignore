@@ -190,5 +190,6 @@ test/sleep.json
 .vscode
 
 /tmp
-.pinnacledb
-output/
+/.pinnacledb
+/output/
+/deploy/testenv/requirements.txt
