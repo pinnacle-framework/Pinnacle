@@ -63,7 +63,7 @@ def up_cluster(notebook_token: t.Optional[str] = None):
     cmd = f"pinnacleDB_CONFIG={CFG} {python_executable} -m pinnacledb rest"
     run_tmux_command(['send-keys', '-t', 'rest', cmd, 'C-m'])
     cmd = (
-        f"pinnacleDB_CONFIG={CFG} {python_executable} -m jupyter notebook --no-browser --ip=0.0.0.0 --token={notebook_token} --allow-root"
+        f"pinnacleDB_CONFIG={CFG} {python_executable} -m jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token={notebook_token} --allow-root"
         if notebook_token
         else f"pinnacleDB_CONFIG={CFG} {python_executable} -m jupyter notebook --no-browser --ip=0.0.0.0"
     )
