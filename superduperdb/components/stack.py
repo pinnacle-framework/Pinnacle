@@ -5,9 +5,6 @@ from pinnacledb.misc.annotations import pinnacle_docstrings
 
 from .component import Component
 
-if t.TYPE_CHECKING:
-    pass
-
 
 @pinnacle_docstrings
 @dc.dataclass(kw_only=True)
