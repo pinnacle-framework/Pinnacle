@@ -5,13 +5,10 @@ import typing as t
 
 from pinnacledb.base.document import Document
 from pinnacledb.components.datatype import DataType, dill_lazy
-from pinnacledb.misc.annotations import pinnacle_docstrings
 
 from .component import Component, ensure_initialized
 
 
-@pinnacle_docstrings
-@dc.dataclass(kw_only=True)
 class Template(Component):
     """
     Application template component.

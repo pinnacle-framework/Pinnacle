@@ -6,7 +6,6 @@ from overrides import override
 
 from pinnacledb.components.component import Component
 from pinnacledb.components.datatype import DataType, _BaseEncodable
-from pinnacledb.misc.annotations import pinnacle_docstrings
 from pinnacledb.misc.reference import parse_reference
 from pinnacledb.misc.special_dicts import SuperDuperFlatEncode
 
@@ -22,8 +21,6 @@ class _Native:
         self.identifier = x
 
 
-@pinnacle_docstrings
-@dc.dataclass(kw_only=True)
 class Schema(Component):
     """A component carrying the `DataType` of columns.
 

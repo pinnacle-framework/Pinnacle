@@ -2,7 +2,6 @@ import dataclasses as dc
 import inspect
 
 from pinnacledb.base.leaf import Leaf
-from pinnacledb.misc.annotations import pinnacle_docstrings
 
 template = """from pinnacledb import code
 
@@ -10,8 +9,6 @@ template = """from pinnacledb import code
 {definition}"""
 
 
-@pinnacle_docstrings
-@dc.dataclass(kw_only=True)
 class Code(Leaf):
     """A class to store remote code.
 
