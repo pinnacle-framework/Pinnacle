@@ -76,9 +76,7 @@ class RayComputeBackend(ComputeBackend):
 
         runtime_env = {}
         env_vars = {
-            k: os.environ[k]
-            for k in os.environ
-            if k.startswith('pinnacleDB_') and k != 'pinnacleDB_CONFIG'
+            k: os.environ[k] for k in os.environ if k.startswith('pinnacleDB_')
         }
         if env_vars:
             runtime_env = {'env_vars': env_vars}
