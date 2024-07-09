@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pinnacledb"
+name = "pinnacle"
 description = "🔮 Bring AI to your favourite database 🔮"
 readme = "README.md"
 license = {file = "LICENSE"}
-maintainers = [{name = "SuperDuperDB, Inc.", email = "opensource@pinnacledb.com"}]
+maintainers = [{name = "pinnacle.io, Inc.", email = "opensource@pinnacle.com"}]
 keywords = [
     "databases",
     "mongodb",
@@ -64,15 +64,15 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://www.pinnacledb.com/"
-documentation = "https://docs.pinnacledb.com"
-source = "https://github.com/SuperDuperDB/pinnacledb/"
+homepage = "https://www.pinnacle.com/"
+documentation = "https://docs.pinnacle.com"
+source = "https://github.com/pinnacle.io/pinnacle/"
 
 [tool.setuptools.packages.find]
-include = ["pinnacledb*"]
+include = ["pinnacle*"]
 
 [tool.setuptools.dynamic]
-version = {attr = "pinnacledb.__version__"}
+version = {attr = "pinnacle.__version__"}
 
 [tool.black]
 skip-string-normalization = true
