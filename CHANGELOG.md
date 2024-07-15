@@ -13,12 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Change images docker pinnacle/<image> to pinnacleio/<image> 
 - Change the image's user from `/home/pinnacledb` to `/home/pinnacle`
+- Add message broker service config
 
 #### New Features & Functionality
 
 - Modify the field name output to _outputs.predict_id in the model results of Ibis.
 
 #### Bug Fixes
+
 
 ## [0.3.0](https://github.com/pinnacle-io/pinnacle/compare/0.3.0...0.2.0])    (2024-Jun-21)
 
