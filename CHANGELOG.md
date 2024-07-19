@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Change images docker pinnacle/<image> to pinnacleio/<image> 
 - Change the image's user from `/home/pinnacledb` to `/home/pinnacle`
 - Add message broker service config
+- Add helper dict method in Event
 
 #### New Features & Functionality
 
