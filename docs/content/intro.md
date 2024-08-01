@@ -1,4 +1,12 @@
-# Welcome to pinnacle!
+---
+description: Find detailed technical documentation for pinnacle's AI and database integration solutions. Access comprehensive guides, API references, and tutorials to effectively implement and utilize SuperDuper technologies in your projects. (Formerly SuperDuperDB)
+---
+
+<head>
+  <title>Docs - pinnacle</title>
+</head>
+
+# Introduction to pinnacle!
 
 Hi 👋 and welcome to the open-source pinnacle project! If you 
 are reading this, you are probably interested in taking full control 
