@@ -319,7 +319,7 @@ datas = [{'x': d} for d in data[:3]]
 <!-- TABS -->
 ## Create datatype
 
-pinnacleDB supports automatic data conversion, so users don’t need to worry about the compatibility of different data formats (`PIL.Image`, `numpy.array`, `pandas.DataFrame`, etc.) with the database.
+pinnacle supports automatic data conversion, so users don’t need to worry about the compatibility of different data formats (`PIL.Image`, `numpy.array`, `pandas.DataFrame`, etc.) with the database.
 
 It also supports custom data conversion methods for transforming data, such as defining the following Datatype.
 
