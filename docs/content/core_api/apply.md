@@ -41,7 +41,7 @@ Read more about `Listener` [here](../apply_api/listener).
 
 ### `VectorIndex`
 
-A `VectorIndex` wraps one or two `Listener` components, and tells pinnacle that the outputs computed, should
+A `VectorIndex` wraps one or two `Listener` components, and tells `pinnacle` that the outputs computed, should
 be made searchable via vector-search queries.
 
 Read more about `VectorIndex` [here](../apply_api/vector_index).
