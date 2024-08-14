@@ -50,7 +50,7 @@ For a fully worked out training/ fine-tuning use-case refer to the [use-cases se
 
 ### LLM fine-tuning
 
-pinnacle provides a convenient fine-tuning method based on the [trl](https://huggingface.co/docs/trl/index) framework to help you train data in the database.
+`pinnacle` provides a convenient fine-tuning method based on the [trl](https://huggingface.co/docs/trl/index) framework to help you train data in the database.
 
 ### Supported Features
 

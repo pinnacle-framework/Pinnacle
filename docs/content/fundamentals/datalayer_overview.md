@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # Datalayer
 
-The `Datalayer` is the principle point of entry in `pinnacle` for:
+The `Datalayer` is the principle point of entry in pinnacle for:
 
 - Communicating with the database
 - Instructing models and other components to work together with the database
-- Accessing and storing meta-data about your `pinnacle` models and data
+- Accessing and storing meta-data about your pinnacle models and data
 
 Technically, the `Datalayer` "wires together" several important backends involved in the AI workflow:
 
 - Querying the database via the **databackend**
 - Storing and retrieving serialized model-weights and other artifacts from the **artifact store**
-- Storing and retrieval important meta-data, from the **meta-data store** and information about models and other components which are to be installed with `pinnacle`
+- Storing and retrieval important meta-data, from the **meta-data store** and information about models and other components which are to be installed with pinnacle
 - Performing computations over the data in the **databackend** using the models saved in the **artifact store**
 
 ```python
@@ -196,4 +196,4 @@ Validate your components (mostly models)
 
 ### `db.predict`
 
-Infer predictions from models hosted by `pinnacle`. Read more about this and about models [here](../apply_api/model.md).
+Infer predictions from models hosted by pinnacle. Read more about this and about models [here](../apply_api/model.md).

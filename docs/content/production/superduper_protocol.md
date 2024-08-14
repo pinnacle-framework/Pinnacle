@@ -1,6 +1,6 @@
 # SuperDuper Protocol
 
-`pinnacle` includes a protocol allowed developers to switch back and forth from Python and YAML/ JSON formats.
+pinnacle includes a protocol allowed developers to switch back and forth from Python and YAML/ JSON formats.
 The mapping is fairly self-explanatory after reading the examples below.
 
 ## Writing in pinnacle-protocol directly

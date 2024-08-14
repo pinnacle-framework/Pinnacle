@@ -1,8 +1,8 @@
 # LLMs
 
-`pinnacle` allows users to work with LLM services and models
+pinnacle allows users to work with LLM services and models
 
-Here is a table of LLMs supported in `pinnacle`:
+Here is a table of LLMs supported in pinnacle:
 
 | Class | Description |
 | --- | --- |

@@ -24,11 +24,11 @@ Follow these steps to get started with pinnacle:
 
 4. **Read about production features**
 
-    `pinnacle` was designed with production specifically in mind. Read more about this [here](../production/).
+    pinnacle was designed with production specifically in mind. Read more about this [here](../production/).
 
 5. **Build understanding**
 
-    To understand more about how `pinnacle` works, read through the [`Fundamentals`](../fundamentals/glossary) and refer to the [`API References`](https://docs.pinnacle.io/apidocs/source/pinnacle.html) for detailed information on API usage.
+    To understand more about how pinnacle works, read through the [`Fundamentals`](../fundamentals/glossary) and refer to the [`API References`](https://docs.pinnacle.io/apidocs/source/pinnacle.html) for detailed information on API usage.
 
 6. **Create your own pinnacle components**
 
