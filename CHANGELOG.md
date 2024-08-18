@@ -305,5 +305,4 @@ Test release before v0.2
 
 ## [0.0.5](https://github.com/pinnacle-io/pinnacle/compare/0.0.5...0.0.4])      (2023-Aug-15)
 
-
 ## 0.0.4      (2023-Aug-03)
