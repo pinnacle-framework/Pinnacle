@@ -79,6 +79,9 @@ homepage = "https://pinnacle.io"
 documentation = "https://docs.pinnacle.io/docs/intro"
 source = "https://github.com/pinnacle-io/pinnacle"
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
 include = ["pinnacle*"]
 
