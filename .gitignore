@@ -193,3 +193,4 @@ test/sleep.json
 /.pinnacledb
 /output/
 /deploy/testenv/requirements.txt
+/pinnacle/rest/pinnacletmp
