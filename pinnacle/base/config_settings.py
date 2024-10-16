@@ -13,7 +13,11 @@ File = t.Union[Path, str]
 
 PREFIX = 'pinnacle_'
 CONFIG_FILE = os.environ.get('pinnacle_CONFIG')
-USER_CONFIG = Path(CONFIG_FILE).expanduser() if CONFIG_FILE else None
+USER_CONFIG: str = (
+    str(Path(CONFIG_FILE).expanduser())
+    if CONFIG_FILE
+    else f'{os.environ["HOME"]}/.pinnacle/config.yaml'
+)
 PREFIX = 'pinnacle_'
 ROOT = Path(__file__).parents[2]
 
@@ -60,7 +64,10 @@ class ConfigSettings:
                 with open(USER_CONFIG) as f:
                     kwargs = yaml.safe_load(f)
             except FileNotFoundError as e:
-                raise ConfigError(f'Could not find config file: {USER_CONFIG}') from e
+                if USER_CONFIG != f'{os.environ["HOME"]}/.pinnacle/config.yaml':
+                    raise ConfigError(
+                        f'Could not find config file: {USER_CONFIG}'
+                    ) from e
             if self.base:
                 kwargs = kwargs.get(self.base, {})
 
