@@ -18,10 +18,7 @@ CONFIG_FILE = os.environ.get('pinnacle_CONFIG')
 USER_CONFIG: str = (
     str(Path(CONFIG_FILE).expanduser())
     if CONFIG_FILE
-    else (
-        f'{HOME}/.pinnacle/config.yaml' if HOME
-        else None
-    )
+    else (f'{HOME}/.pinnacle/config.yaml' if HOME else None)
 )
 PREFIX = 'pinnacle_'
 ROOT = Path(__file__).parents[2]
