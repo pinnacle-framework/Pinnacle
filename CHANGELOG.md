@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Changes Since Last Release 
 
-#### Changed defaults / behaviours 
+#### Changed defaults / behaviours
 
 - Change images docker pinnacle/<image> to pinnacleio/<image> 
 - Change the image's user from `/home/pinnacledb` to `/home/pinnacle`
