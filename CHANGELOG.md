@@ -11,6 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Changed defaults / behaviours
 
+#### New Features & Functionality
+
+#### Bug Fixes
+
+## [0.3.0](https://github.com/pinnacle-io/pinnacle/compare/0.4.0...0.3.0])    (2024-Nov-02)
+
+#### Changed defaults / behaviours
+
 - Change images docker pinnacle/<image> to pinnacleio/<image> 
 - Change the image's user from `/home/pinnacledb` to `/home/pinnacle`
 - Add message broker service config
