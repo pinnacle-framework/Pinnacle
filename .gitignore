@@ -197,3 +197,4 @@ test/sleep.json
 /deploy/testenv/requirements.txt
 /pinnacle/rest/pinnacletmp
 /example*
+.cache
