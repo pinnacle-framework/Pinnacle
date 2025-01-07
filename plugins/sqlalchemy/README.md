@@ -6,7 +6,7 @@ pinnacle sqlalchemy is a metadata plugin for pinnacle that allows you to store m
 This plugin cannot be used independently; it must be used together with pinnacle_ibis.
 
 
-## Installation
+## Installation 
 
 ```bash
 pip install pinnacle_sqlalchemy
