@@ -198,3 +198,4 @@ test/sleep.json
 /pinnacle/rest/pinnacletmp
 /example*
 .cache
+/templates/*/artifact_store
