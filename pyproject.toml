@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pinnacle-framework"
 description = "Build compositional and declarative AI applications and agents"
 readme = "README.md"
-version = '0.5.0'
+version = '0.6.0'
 license = {file = "LICENSE"}
 maintainers = [{name = "pinnacle.io, Inc.", email = "opensource@pinnacle.com"}]
 keywords = [
