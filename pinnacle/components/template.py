@@ -55,6 +55,14 @@ class Template(Component):
         """
         path = pathlib.Path(path)
 
+        if 'pinnacle_CONFIG' in os.environ:
+            os.environ['pinnacle_CONFIG'] = os.path.abspath(
+                os.environ['pinnacle_CONFIG']
+            )
+            os.environ['pinnacle_CONFIG'] = os.path.expanduser(
+                os.environ['pinnacle_CONFIG']
+            )
+
         @contextmanager
         def change_dir(destination):
             prev_dir = os.getcwd()
