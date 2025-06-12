@@ -1,10 +1,8 @@
-import rich
 import typing as t
 
 import networkx as nx
-import rich.tree
 
-from pinnacle import CFG, Component
+from pinnacle import Component
 
 if t.TYPE_CHECKING:
     from pinnacle.base.datalayer import Datalayer

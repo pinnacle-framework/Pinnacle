@@ -1,3 +1,4 @@
+# TODO remove
 import concurrent.futures
 import dataclasses as dc
 import inspect
@@ -6,7 +7,6 @@ from functools import reduce
 from logging import WARNING, getLogger
 
 from pinnacle import logging
-from pinnacle.components.component import ensure_setup
 from pinnacle.components.llm.prompter import Prompter
 from pinnacle.components.model import Model
 
