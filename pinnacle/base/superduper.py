@@ -12,6 +12,7 @@ def pinnacle(item: str | None = None, **kwargs) -> t.Any:
     :param item: URI of connection.
     :param kwargs: Additional parameters to building `Datalayer`
     """
+
     from pinnacle.base.build import build_datalayer
 
     if item is None:
