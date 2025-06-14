@@ -2,11 +2,7 @@ import dataclasses as dc
 import typing as t
 from pprint import pprint
 
-<<<<<<< HEAD
-from pinnacle import ObjectModel
-=======
 from pinnacle import Application, Model, ObjectModel, VectorIndex
->>>>>>> 1a1b464b2 (Fixes for variables in `Component`)
 from pinnacle.base.base import Base
 from pinnacle.base.constant import KEY_BLOBS, KEY_BUILDS
 from pinnacle.base.document import Document
