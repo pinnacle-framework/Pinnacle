@@ -1,3 +1,0 @@
-pinnacle_sentence_transformers
-pinnacle_sklearn
-pinnacle_torch
