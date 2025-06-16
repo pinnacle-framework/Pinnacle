@@ -22,8 +22,6 @@ def _replace_variables(x, uuid_swaps: t.Dict | None = None, **kwargs):
     from pinnacle.components.component import Component
 
     from .document import Document
-    from pinnacle.base.base import Base
-    from pinnacle.components.component import Component
 
     if uuid_swaps is None:
         uuid_swaps = {}

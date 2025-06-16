@@ -8,7 +8,6 @@ from pinnacle.base.constant import KEY_BLOBS, KEY_BUILDS
 from pinnacle.base.document import Document
 from pinnacle.components.component import Component
 from pinnacle.components.listener import Listener
-from pinnacle import Application, Model, VectorIndex
 
 
 class Test(Base):
