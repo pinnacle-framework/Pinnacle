@@ -9,6 +9,16 @@ from pinnacle.base.base import Base
 from pinnacle.components.component import Component
 
 
+ORDER = [
+    'str',
+    'int',
+    'float',
+    'bool',
+    'json',
+    'dill',
+]
+
+
 def gather_mro_globals(cls):
     """Return a pinnacled dictionary of the module global from the MRO of `cls`.
 
