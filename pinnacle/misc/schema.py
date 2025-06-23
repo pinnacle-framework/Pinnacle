@@ -8,7 +8,6 @@ from pinnacle import logging
 from pinnacle.base.base import Base
 from pinnacle.components.component import Component
 
-
 ORDER = [
     'str',
     'int',
