@@ -11,7 +11,6 @@ from pinnacle.base.artifacts import (
     FileSystemArtifactStore,
 )
 from pinnacle.base.config import Config
-from pinnacle.base.config_settings import ConfigSettings
 from pinnacle.base.datalayer import Datalayer
 from pinnacle.misc.anonymize import anonymize_url
 from pinnacle.misc.importing import load_plugin
