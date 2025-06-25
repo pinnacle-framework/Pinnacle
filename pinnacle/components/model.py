@@ -22,13 +22,11 @@ from pinnacle.components.metric import Metric
 from pinnacle.misc import typing as st
 from pinnacle.misc.importing import isreallyinstance
 from pinnacle.misc.schema import (
-    _map_type_to_pinnacle,
+    Annotation,
     _safe_resolve_annotation,
-    process as process_annotation,
 )
 
 if t.TYPE_CHECKING:
-    from pinnacle.backends.base.cluster import Cluster
     from pinnacle.base.datalayer import Datalayer
     from pinnacle.components.dataset import Dataset
 
@@ -258,10 +256,7 @@ class Model(Component, metaclass=ModelMeta):
                 annotation = _safe_resolve_annotation(
                     annotation, {**module_globals, **pinnacle_globals}
                 )
-                inferred_annotation, iterable = process_annotation(annotation)
-                self.datatype = _map_type_to_pinnacle(
-                    self.__class__.__name__, 'predict', inferred_annotation, iterable
-                )
+                self.datatype = Annotation.build(annotation).datatype
 
         if not self.identifier:
             raise Exception('_Predictor identifier must be non-empty')
