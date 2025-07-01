@@ -772,6 +772,7 @@ class Datalayer:
 
         logging.info('Getting vector-index')
         import time
+
         start = time.time()
 
         from pinnacle.components.vector_index import VectorIndex
