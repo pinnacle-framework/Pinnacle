@@ -143,7 +143,7 @@ class Config(BaseConfig):
 
     envs: dc.InitVar[t.Optional[t.Dict[str, str]]] = None
 
-    secrets_volume: str = os.path.join(".pinnacle", "/session/secrets")
+    secrets_volume: str = '~/.pinnacle/secrets'
     data_backend: str = "mongodb://localhost:27017/test_db"
 
     artifact_store: str = 'filesystem://./artifact_store'
