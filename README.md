@@ -46,7 +46,7 @@ pip install pinnacle-agents
 ### Install from Source
 
 ```bash
-git clone https://github.com/pinnacle-network/pinnacle.git
+git clone https://github.com/pinnacle-framework/pinnacle.git
 cd pinnacle
 pip install -e .
 ```
@@ -312,7 +312,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/pinnacle-network/pinnacle.git
+   git clone https://github.com/pinnacle-framework/pinnacle.git
    ```
 3. Create a virtual environment:
    ```bash
